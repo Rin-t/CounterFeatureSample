@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct CounterFeatureSampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let store = Store(initialState: CounterFeature.State()) {
+                CounterFeature()
+            }
+            ContentView(store: store)
         }
     }
 }
