@@ -44,6 +44,15 @@ struct ContentView: View {
             .padding()
             .background(Color.black.opacity(0.1))
             .presentationCornerRadius(10)
+
+            if store.isLoading {
+                ProgressView()
+            } else if let fact = store.fact {
+                Text(fact)
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .padding()
+            }
         }
     }
 }
