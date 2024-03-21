@@ -13,14 +13,14 @@ import ComposableArchitecture
 struct CounterFeature {
 
     @ObservableState
-    struct State {
+    struct State: Equatable {
         var count = 0
         var fact: String?
         var isLoading = false
         var isTimerRunning = false
     }
 
-    enum Action {
+    enum Action: Equatable {
         case decrementButtonTapped
         case factButtonTapped
         case factResponse(String)
@@ -30,6 +30,8 @@ struct CounterFeature {
     }
 
     enum CancelID { case timer }
+
+    @Dependency(\.continuousClock) var clock
 
     var body: some ReducerOf<Self> {
         Reduce { state, action in
