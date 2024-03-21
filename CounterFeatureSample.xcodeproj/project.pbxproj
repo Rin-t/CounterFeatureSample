@@ -16,6 +16,7 @@
 		245E4E582BA8899100DA1375 /* CounterFeatureSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E4E572BA8899100DA1375 /* CounterFeatureSampleUITestsLaunchTests.swift */; };
 		245E4E662BA88A1900DA1375 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 245E4E652BA88A1900DA1375 /* ComposableArchitecture */; };
 		245E4E682BA88D9B00DA1375 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E4E672BA88D9B00DA1375 /* CounterFeature.swift */; };
+		245E4EA12BAC783600DA1375 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245E4EA02BAC783600DA1375 /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		245E4E572BA8899100DA1375 /* CounterFeatureSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		245E4E672BA88D9B00DA1375 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		245E4E9F2BA9F59200DA1375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		245E4EA02BAC783600DA1375 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				245E4E3A2BA8898C00DA1375 /* CounterFeatureSampleApp.swift */,
 				245E4E3C2BA8898C00DA1375 /* ContentView.swift */,
 				245E4E672BA88D9B00DA1375 /* CounterFeature.swift */,
+				245E4EA02BAC783600DA1375 /* NumberFactClient.swift */,
 				245E4E3E2BA8899000DA1375 /* Assets.xcassets */,
 				245E4E402BA8899000DA1375 /* Preview Content */,
 			);
@@ -273,6 +276,7 @@
 				245E4E682BA88D9B00DA1375 /* CounterFeature.swift in Sources */,
 				245E4E3D2BA8898C00DA1375 /* ContentView.swift in Sources */,
 				245E4E3B2BA8898C00DA1375 /* CounterFeatureSampleApp.swift in Sources */,
+				245E4EA12BAC783600DA1375 /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
